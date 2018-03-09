@@ -18,7 +18,7 @@ class LdapAuth
 
     public function authenticateUser( $user, $pass )
     {
-        // cURL that receives a JSON
+        // cURL that receives a JSON and requires the app_id to validate [$this->bundleParams()]
 
         return $result;
     }
